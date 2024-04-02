@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Lilita One", sans-serif;
+}  
+
+body{
+    background-image: url(./Imagens/BackgroundPatas.jpg);
+    background-attachment: fixed;
+}
+
+body > header {
+    padding: 30px 0;
+    background-color: rgb(238, 183, 111);
+    font-size: 20px;
+    color: rgb(33, 34, 34);
+}
+
+header nav li{
+    display: inline;
+    margin-left: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header h1 {
+    font-weight: bolder;
+}
+
+header nav li a{
+    color: rgb(97, 59, 158);
+    text-decoration: none;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.apresenta {
+    width: 400px;
+    margin: 0 30px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+section .sobre{
+    background-color: rgb(128, 186, 224);
+    padding: 20px 20px;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 10px;
+}
+
+input, textarea, button {
+    font-family: "Open Sans", sans-serif;
+}
+
+section p {
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+
+#registro .container {
+    display: block;
+    align-items: center;
+    background-color: rgba(238, 183, 111, 0.658);
+    border-radius: 10px;
+}
+
+#registro h2 {
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(128, 186, 224);
+    font-family: "Lilita One", sans-serif;
+    font-weight: normal;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forms h3,
+.forms form{
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    font-weight: normal;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 140px;
+    font-size: 14px;
+}
+
+form button {
+    background-color: rgb(237, 199, 238);
+    padding: 0;
+    height: 40px;
+}
+
+form button:hover {
+    background-color: rgb(224, 153, 209);
+    cursor: pointer;
+}
+
+.mural img {
+    width: 150px;
+    height: auto;
+    padding: 2%;
+}
+
+.mural {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mural article {
+    width: 30%;
+}
+
+footer {
+    background-color: rgba(238, 183, 111, 0.658);
+    padding: 16px;
+}
+
+/* Estilizando sessão de fotos*/
+
+#fotos .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fotos .container article {
+    width: 30%;
+    border: 5px solid rgb(173, 195, 245);
+    border-radius: 10px;
+    margin: 50px 0;
+    padding: 30px;
+    background-color: rgb(128, 186, 224);
+}
+
+#fotos article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilizando sessão de videos*/
+
+#videos .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#videos .container article {
+    width: auto;
+    border: 5px solid rgb(173, 195, 245);
+    border-radius: 10px;
+    margin: 50px 0;
+    padding: 30px;
+    background-color: rgb(128, 186, 224);
+}
+
+#videos article video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
