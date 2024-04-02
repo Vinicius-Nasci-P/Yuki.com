@@ -179,6 +179,8 @@ footer {
     margin: 50px 0;
     padding: 30px;
     background-color: rgb(128, 186, 224);
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
 }
 
 #fotos article img {
